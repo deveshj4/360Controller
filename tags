@@ -1,0 +1,415 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ChatPad2USB	360Controller/chatpadkeys.cpp	/^unsigned char ChatPad2USB(unsigned char input)$/;"	f
+ChatPadKeyboardClass	360Controller/ChatPad.h	/^class ChatPadKeyboardClass : public IOHIDDevice$/;"	c
+ChatPadTimerAction	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::ChatPadTimerAction(IOTimerEventSource *sender)$/;"	f	class:Xbox360Peripheral
+ChatPadTimerActionWrapper	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::ChatPadTimerActionWrapper(OSObject *owner, IOTimerEventSource *sender)$/;"	f	class:Xbox360Peripheral
+ChatPadTimerActionWrapper	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::ChatPadTimerActionWrapper(OSObject *owner, IOTimerEventSource *sender)$/;"	f	class:WirelessHIDDevice
+Control360Factory	Feedback360/main.c	/^void* Control360Factory(CFAllocatorRef allocator,CFUUIDRef uuid)$/;"	f
+DOM_CONTROLLERS	360Daemon/ControlPrefs.h	/^#define DOM_CONTROLLERS /;"	d
+DOM_DAEMON	360Daemon/ControlPrefs.h	/^#define DOM_DAEMON /;"	d
+D_KNOWNDEV	360Daemon/ControlPrefs.h	/^#define D_KNOWNDEV /;"	d
+D_SHOWONCE	360Daemon/ControlPrefs.h	/^#define D_SHOWONCE /;"	d
+DeviceLink	Feedback360/devlink.h	/^} DeviceLink;$/;"	t	typeref:struct:__anon10
+Device_Finalise	Feedback360/devlink.c	/^void Device_Finalise(DeviceLink *link)$/;"	f
+Device_Initialise	Feedback360/devlink.c	/^bool Device_Initialise(DeviceLink *link,io_object_t device)$/;"	f
+Device_Send	Feedback360/devlink.c	/^bool Device_Send(DeviceLink *link,void *data,int length)$/;"	f
+Emulate_Callback	Feedback360/emulator.c	/^void Emulate_Callback(ForceEmulator *emulator,unsigned char large,unsigned char small)$/;"	f
+Emulate_ChangeEffect	Feedback360/emulator.c	/^bool Emulate_ChangeEffect(ForceEmulator *emulator,int index,const ForceParams *params)$/;"	f
+Emulate_CreateEffect	Feedback360/emulator.c	/^int Emulate_CreateEffect(ForceEmulator *emulator,const ForceParams *params)$/;"	f
+Emulate_DestroyEffect	Feedback360/emulator.c	/^void Emulate_DestroyEffect(ForceEmulator *emulator,int index)$/;"	f
+Emulate_Effects_Total	Feedback360/emulator.c	/^UInt32 Emulate_Effects_Total(ForceEmulator *emulator)$/;"	f
+Emulate_Effects_Used	Feedback360/emulator.c	/^UInt32 Emulate_Effects_Used(ForceEmulator *emulator)$/;"	f
+Emulate_Finalise	Feedback360/emulator.c	/^void Emulate_Finalise(ForceEmulator *emulator)$/;"	f
+Emulate_Force	Feedback360/emulator.c	/^static void Emulate_Force(ForceEmulator *emulator,int force,int maxGain)$/;"	f	file:
+Emulate_Initialise	Feedback360/emulator.c	/^void Emulate_Initialise(ForceEmulator *emulator,int effectCount,void (*SetForce)(void*,unsigned char,unsigned char),void *context)$/;"	f
+Emulate_IsEmpty	Feedback360/emulator.c	/^bool Emulate_IsEmpty(ForceEmulator *emulator)$/;"	f
+Emulate_IsEnabled	Feedback360/emulator.c	/^bool Emulate_IsEnabled(ForceEmulator *emulator)$/;"	f
+Emulate_IsPaused	Feedback360/emulator.c	/^bool Emulate_IsPaused(ForceEmulator *emulator)$/;"	f
+Emulate_IsPlaying	Feedback360/emulator.c	/^bool Emulate_IsPlaying(ForceEmulator *emulator,int index)$/;"	f
+Emulate_IsStopped	Feedback360/emulator.c	/^bool Emulate_IsStopped(ForceEmulator *emulator)$/;"	f
+Emulate_IsValidEffect	Feedback360/emulator.c	/^bool Emulate_IsValidEffect(ForceEmulator *emulator,int index)$/;"	f
+Emulate_Reset	Feedback360/emulator.c	/^void Emulate_Reset(ForceEmulator *emulator)$/;"	f
+Emulate_Scale	Feedback360/emulator.c	/^static inline int Emulate_Scale(int from,int to,int max,int val)$/;"	f	file:
+Emulate_SetEnable	Feedback360/emulator.c	/^void Emulate_SetEnable(ForceEmulator *emulator,bool enable)$/;"	f
+Emulate_SetGain	Feedback360/emulator.c	/^void Emulate_SetGain(ForceEmulator *emulator,int gain,int gainMax)$/;"	f
+Emulate_SetPaused	Feedback360/emulator.c	/^void Emulate_SetPaused(ForceEmulator *emulator,bool enable)$/;"	f
+Emulate_Start	Feedback360/emulator.c	/^void Emulate_Start(ForceEmulator *emulator,int index,int iterations)$/;"	f
+Emulate_Stop	Feedback360/emulator.c	/^void Emulate_Stop(ForceEmulator *emulator,int index)$/;"	f
+Emulate_Timer	Feedback360/emulator.c	/^static void Emulate_Timer(CFRunLoopTimerRef timer,void *context)$/;"	f	file:
+FFThis	Feedback360/main.h	/^#define FFThis(/;"	d
+Feedback360AddRef	Feedback360/main.c	/^static ULONG Feedback360AddRef(void *that)$/;"	f	file:
+Feedback360ConvertEffect	Feedback360/main.c	/^static bool Feedback360ConvertEffect(const FFEFFECT *effect,ForceParams *params)$/;"	f	file:
+Feedback360DestroyEffect	Feedback360/main.c	/^static HRESULT Feedback360DestroyEffect(void *that,FFEffectDownloadID downloadID)$/;"	f	file:
+Feedback360DownloadEffect	Feedback360/main.c	/^static HRESULT Feedback360DownloadEffect(void *that,CFUUIDRef effectType,FFEffectDownloadID *downloadID,FFEFFECT *effect,FFEffectParameterFlag flags)$/;"	f	file:
+Feedback360Escape	Feedback360/main.c	/^static HRESULT Feedback360Escape(void *that,FFEffectDownloadID downloadID,FFEFFESCAPE *escape)$/;"	f	file:
+Feedback360GetEffectStatus	Feedback360/main.c	/^static HRESULT Feedback360GetEffectStatus(void *that,FFEffectDownloadID downloadID,FFEffectStatusFlag *statusCode)$/;"	f	file:
+Feedback360GetForceFeedbackCapabilities	Feedback360/main.c	/^static HRESULT Feedback360GetForceFeedbackCapabilities(void *this,FFCAPABILITIES *capabilities)$/;"	f	file:
+Feedback360GetForceFeedbackState	Feedback360/main.c	/^static HRESULT Feedback360GetForceFeedbackState(void *that,ForceFeedbackDeviceState *deviceState)$/;"	f	file:
+Feedback360GetVersion	Feedback360/main.c	/^static HRESULT Feedback360GetVersion(void *this,ForceFeedbackVersion *version)$/;"	f	file:
+Feedback360InitializeTerminate	Feedback360/main.c	/^static HRESULT Feedback360InitializeTerminate(void *that,NumVersion APIversion,io_object_t hidDevice,boolean_t begin)$/;"	f	file:
+Feedback360Probe	Feedback360/main.c	/^static IOReturn Feedback360Probe(void *that,CFDictionaryRef propertyTable,io_service_t service,SInt32 *order)$/;"	f	file:
+Feedback360QueryInterface	Feedback360/main.c	/^static HRESULT Feedback360QueryInterface(void *that,REFIID iid,LPVOID *ppv)$/;"	f	file:
+Feedback360Release	Feedback360/main.c	/^static ULONG Feedback360Release(void *that)$/;"	f	file:
+Feedback360SendForceFeedbackCommand	Feedback360/main.c	/^static HRESULT Feedback360SendForceFeedbackCommand(void *that,FFCommandFlag state)$/;"	f	file:
+Feedback360SetProperty	Feedback360/main.c	/^static HRESULT Feedback360SetProperty(void *that,FFProperty property,void *value)$/;"	f	file:
+Feedback360Start	Feedback360/main.c	/^static IOReturn Feedback360Start(void *that,CFDictionaryRef propertyTable,io_service_t service)$/;"	f	file:
+Feedback360StartEffect	Feedback360/main.c	/^static HRESULT Feedback360StartEffect(void *that,FFEffectDownloadID downloadID,FFEffectStartFlag mode,UInt32 iterations)$/;"	f	file:
+Feedback360Stop	Feedback360/main.c	/^static IOReturn Feedback360Stop(void *that)$/;"	f	file:
+Feedback360StopEffect	Feedback360/main.c	/^static HRESULT Feedback360StopEffect(void *that,FFEffectDownloadID downloadID)$/;"	f	file:
+Feedback360SupportedEffect	Feedback360/main.c	/^static bool Feedback360SupportedEffect(CFUUIDRef effect)$/;"	f	file:
+Feedback360_Callback	Feedback360/main.c	/^static void Feedback360_Callback(void *that,unsigned char large,unsigned char small)$/;"	f	file:
+FeedbackDriverUuid	Feedback360/main.h	/^#define FeedbackDriverUuid /;"	d
+FeedbackDriverVersionMajor	Feedback360/main.h	/^#define FeedbackDriverVersionMajor /;"	d
+FeedbackDriverVersionMinor	Feedback360/main.h	/^#define FeedbackDriverVersionMinor /;"	d
+FeedbackDriverVersionNonRelRev	Feedback360/main.h	/^#define FeedbackDriverVersionNonRelRev /;"	d
+FeedbackDriverVersionStage	Feedback360/main.h	/^#define FeedbackDriverVersionStage /;"	d
+ForceEffect	Feedback360/emulator.h	/^} ForceEffect;$/;"	t	typeref:struct:__anon12
+ForceEmulator	Feedback360/emulator.h	/^} ForceEmulator;$/;"	t	typeref:struct:__anon14
+ForceParams	Feedback360/emulator.h	/^} ForceParams;$/;"	t	typeref:struct:__anon13
+ForceState	Feedback360/emulator.h	/^} ForceState;$/;"	t	typeref:enum:__anon11
+GetBatteryLevel	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^unsigned char WirelessHIDDevice::GetBatteryLevel(void)$/;"	f	class:WirelessHIDDevice
+GetMaxPacketSize	360Controller/_60Controller.cpp	/^static UInt32 GetMaxPacketSize(IOUSBPipe *pipe)$/;"	f	file:
+GetMaxPacketSize	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^static UInt32 GetMaxPacketSize(IOUSBPipe *pipe)$/;"	f	file:
+GetOwner	360Controller/Controller.cpp	/^static Xbox360Peripheral* GetOwner(IOService *us)$/;"	f	file:
+GetOwnerProvider	360Controller/Controller.cpp	/^static IOUSBDevice* GetOwnerProvider(const IOService *us)$/;"	f	file:
+GetParent	360Controller/ChatPad.cpp	/^static IOHIDDevice* GetParent(const IOService *current)$/;"	f	file:
+HID_360	360Controller/Controller.cpp	/^namespace HID_360 {$/;"	n	file:
+HID_ChatPad	360Controller/ChatPad.cpp	/^namespace HID_ChatPad {$/;"	n	file:
+HexData	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^const char *HexData = "0123456789ABCDEF";$/;"	v
+InstantiateService	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::InstantiateService(int index)$/;"	f	class:WirelessGamingReceiver
+IsDataAvailable	WirelessGamingReceiver/WirelessDevice.cpp	/^bool WirelessDevice::IsDataAvailable(void)$/;"	f	class:WirelessDevice
+IsDataQueued	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^bool WirelessGamingReceiver::IsDataQueued(int index)$/;"	f	class:WirelessGamingReceiver
+LockRequired	360Controller/_60Controller.cpp	/^    LockRequired(IOLock *lock)$/;"	f	class:LockRequired
+LockRequired	360Controller/_60Controller.cpp	/^class LockRequired$/;"	c	file:
+LoopGranularity	Feedback360/emulator.c	/^#define LoopGranularity /;"	d	file:
+LoopTimerDelay	Feedback360/emulator.c	/^#define LoopTimerDelay /;"	d	file:
+MAP_DATA	360Controller/chatpadkeys.cpp	/^typedef struct MAP_DATA {$/;"	s	file:
+MAP_DATA	360Controller/chatpadkeys.cpp	/^} MAP_DATA;$/;"	t	typeref:struct:MAP_DATA	file:
+NewData	WirelessGamingReceiver/WirelessDevice.cpp	/^void WirelessDevice::NewData(void)$/;"	f	class:WirelessDevice
+NextPacket	WirelessGamingReceiver/WirelessDevice.cpp	/^IOMemoryDescriptor* WirelessDevice::NextPacket(void)$/;"	f	class:WirelessDevice
+PACKED	360Controller/ControlStruct.h	/^#define PACKED /;"	d
+POWEROFF_TIMEOUT	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^#define POWEROFF_TIMEOUT /;"	d	file:
+PadConnect	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::PadConnect(void)$/;"	f	class:Xbox360Peripheral
+PadDisconnect	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::PadDisconnect(void)$/;"	f	class:Xbox360Peripheral
+PowerOff	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::PowerOff(void)$/;"	f	class:WirelessHIDDevice
+ProcessMessage	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::ProcessMessage(int index, const unsigned char *data, int length)$/;"	f	class:WirelessGamingReceiver
+QueueRead	360Controller/_60Controller.cpp	/^bool Xbox360Peripheral::QueueRead(void)$/;"	f	class:Xbox360Peripheral
+QueueRead	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^bool WirelessGamingReceiver::QueueRead(int index)$/;"	f	class:WirelessGamingReceiver
+QueueSerialRead	360Controller/_60Controller.cpp	/^bool Xbox360Peripheral::QueueSerialRead(void)$/;"	f	class:Xbox360Peripheral
+QueueWrite	360Controller/_60Controller.cpp	/^bool Xbox360Peripheral::QueueWrite(const void *bytes,UInt32 length)$/;"	f	class:Xbox360Peripheral
+QueueWrite	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^bool WirelessGamingReceiver::QueueWrite(int index, const void *bytes, UInt32 length)$/;"	f	class:WirelessGamingReceiver
+ROW_SIZE	360Controller/chatpadkeys.cpp	/^#define ROW_SIZE	/;"	d	file:
+ReadBuffer	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^IOMemoryDescriptor* WirelessGamingReceiver::ReadBuffer(int index)$/;"	f	class:WirelessGamingReceiver
+ReadComplete	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::ReadComplete(void *parameter,IOReturn status,UInt32 bufferSizeRemaining)$/;"	f	class:Xbox360Peripheral
+ReadComplete	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::ReadComplete(void *parameter, IOReturn status, UInt32 bufferSizeRemaining)$/;"	f	class:WirelessGamingReceiver
+ReadCompleteInternal	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::ReadCompleteInternal(void *target,void *parameter,IOReturn status,UInt32 bufferSizeRemaining)$/;"	f	class:Xbox360Peripheral
+RegisterWatcher	WirelessGamingReceiver/WirelessDevice.cpp	/^void WirelessDevice::RegisterWatcher(void *target, WirelessDeviceWatcher function, void *parameter)$/;"	f	class:WirelessDevice
+ReleaseAll	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::ReleaseAll(void)$/;"	f	class:Xbox360Peripheral
+ReleaseAll	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::ReleaseAll(void)$/;"	f	class:WirelessGamingReceiver
+ReportDescriptor	360Controller/chatpadhid.h	/^char ReportDescriptor[58] = {$/;"	v
+ReportDescriptor	360Controller/xbox360hid.h	/^char ReportDescriptor[196] = {$/;"	v
+SendInit	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SendInit(UInt16 value, UInt16 index)$/;"	f	class:Xbox360Peripheral
+SendPacket	WirelessGamingReceiver/WirelessDevice.cpp	/^void WirelessDevice::SendPacket(const void *data, size_t length)$/;"	f	class:WirelessDevice
+SendSpecial	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SendSpecial(UInt16 value)$/;"	f	class:Xbox360Peripheral
+SendSwitch	360Controller/_60Controller.cpp	/^bool Xbox360Peripheral::SendSwitch(bool sendOut)$/;"	f	class:Xbox360Peripheral
+SendToggle	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SendToggle(void)$/;"	f	class:Xbox360Peripheral
+SerialConnect	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SerialConnect(void)$/;"	f	class:Xbox360Peripheral
+SerialDisconnect	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SerialDisconnect(void)$/;"	f	class:Xbox360Peripheral
+SerialMessage	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SerialMessage(IOBufferMemoryDescriptor *data, size_t length)$/;"	f	class:Xbox360Peripheral
+SerialReadComplete	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SerialReadComplete(void *parameter, IOReturn status, UInt32 bufferSizeRemaining)$/;"	f	class:Xbox360Peripheral
+SerialReadCompleteInternal	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::SerialReadCompleteInternal(void *target, void *parameter, IOReturn status, UInt32 bufferSizeRemaining)$/;"	f	class:Xbox360Peripheral
+SetForce	Feedback360/emulator.h	/^    void (*SetForce)(void *context,unsigned char large,unsigned char small);$/;"	m	struct:__anon14
+SetIndex	WirelessGamingReceiver/WirelessDevice.cpp	/^void WirelessDevice::SetIndex(int i)$/;"	f	class:WirelessDevice
+SetLEDs	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::SetLEDs(int mode)$/;"	f	class:WirelessHIDDevice
+SetRumbleMotors	Wireless360Controller/Wireless360Controller.cpp	/^void Wireless360Controller::SetRumbleMotors(unsigned char large, unsigned char small)$/;"	f	class:Wireless360Controller
+TIMER_STATE	360Controller/_60Controller.h	/^	} TIMER_STATE;$/;"	t	class:Xbox360Peripheral	typeref:enum:Xbox360Peripheral::__anon1
+WGRREAD	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^WGRREAD;$/;"	t	typeref:struct:__anon15	file:
+WIRELESS_CONNECTION	WirelessGamingReceiver/WirelessGamingReceiver.h	/^WIRELESS_CONNECTION;$/;"	t	typeref:struct:__anon16
+WIRELESS_CONNECTIONS	WirelessGamingReceiver/WirelessGamingReceiver.h	/^#define WIRELESS_CONNECTIONS /;"	d
+Wireless360Controller	Wireless360Controller/Wireless360Controller.h	/^class Wireless360Controller : public WirelessHIDDevice$/;"	c
+WirelessDevice	WirelessGamingReceiver/WirelessDevice.h	/^class WirelessDevice : public IOService$/;"	c
+WirelessDeviceWatcher	WirelessGamingReceiver/WirelessDevice.h	/^typedef void (*WirelessDeviceWatcher)(void *target, WirelessDevice *sender, void *parameter);$/;"	t
+WirelessGamingReceiver	WirelessGamingReceiver/WirelessGamingReceiver.h	/^class WirelessGamingReceiver : public IOService$/;"	c
+WirelessHIDDevice	WirelessGamingReceiver/WirelessHIDDevice.h	/^class WirelessHIDDevice : public IOHIDDevice$/;"	c
+WriteComplete	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::WriteComplete(void *parameter,IOReturn status,UInt32 bufferSizeRemaining)$/;"	f	class:Xbox360Peripheral
+WriteComplete	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::WriteComplete(void *parameter,IOReturn status,UInt32 bufferSizeRemaining)$/;"	f	class:WirelessGamingReceiver
+WriteCompleteInternal	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::WriteCompleteInternal(void *target,void *parameter,IOReturn status,UInt32 bufferSizeRemaining)$/;"	f	class:Xbox360Peripheral
+XBOX360_HAT	360Controller/ControlStruct.h	/^} PACKED XBOX360_HAT;$/;"	t	typeref:struct:__anon3
+XBOX360_IN_REPORT	360Controller/ControlStruct.h	/^} PACKED XBOX360_IN_REPORT;$/;"	t	typeref:struct:__anon4
+XBOX360_OUT_LED	360Controller/ControlStruct.h	/^} PACKED XBOX360_OUT_LED;$/;"	t	typeref:struct:__anon5
+XBOX360_OUT_RUMBLE	360Controller/ControlStruct.h	/^} PACKED XBOX360_OUT_RUMBLE;$/;"	t	typeref:struct:__anon6
+XBOX360_PACKET	360Controller/ControlStruct.h	/^} PACKED XBOX360_PACKET;$/;"	t	typeref:struct:__anon2
+XBox360_Byte	360Controller/ControlStruct.h	/^typedef UInt8 XBox360_Byte;$/;"	t
+XBox360_SShort	360Controller/ControlStruct.h	/^typedef SInt16 XBox360_SShort;$/;"	t
+XBox360_Short	360Controller/ControlStruct.h	/^typedef UInt16 XBox360_Short;$/;"	t
+Xbox360ControllerClass	360Controller/Controller.h	/^class Xbox360ControllerClass : public IOHIDDevice$/;"	c
+Xbox360ForceFeedback	Feedback360/main.h	/^} Xbox360ForceFeedback;$/;"	t	typeref:struct:_Xbox360ForceFeedback
+Xbox360InterfaceMap	Feedback360/main.h	/^} Xbox360InterfaceMap;$/;"	t	typeref:struct:_Xbox360InterfaceMap
+Xbox360Peripheral	360Controller/_60Controller.h	/^class Xbox360Peripheral : public IOService$/;"	c
+Xbox360_Prepare	360Controller/ControlStruct.h	/^#define Xbox360_Prepare(/;"	d
+_ReadComplete	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::_ReadComplete(void *target, void *parameter, IOReturn status, UInt32 bufferSizeRemaining)$/;"	f	class:WirelessGamingReceiver
+_WriteComplete	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::_WriteComplete(void *target, void *parameter, IOReturn status, UInt32 bufferSizeRemaining)$/;"	f	class:WirelessGamingReceiver
+_Xbox360ForceFeedback	Feedback360/main.h	/^typedef struct _Xbox360ForceFeedback {$/;"	s
+_Xbox360InterfaceMap	Feedback360/main.h	/^typedef struct _Xbox360InterfaceMap {$/;"	s
+__CONTROLSTRUCT_H__	360Controller/ControlStruct.h	/^#define __CONTROLSTRUCT_H__$/;"	d
+__DEVICES_H__	WirelessGamingReceiver/devices.h	/^#define __DEVICES_H__$/;"	d
+__WIRELESS360CONTROLLER_H__	Wireless360Controller/Wireless360Controller.h	/^#define __WIRELESS360CONTROLLER_H__$/;"	d
+__WIRELESSDEVICE_H__	WirelessGamingReceiver/WirelessDevice.h	/^#define __WIRELESSDEVICE_H__$/;"	d
+__WIRELESSGAMINGRECEIVER_H__	WirelessGamingReceiver/WirelessGamingReceiver.h	/^#define __WIRELESSGAMINGRECEIVER_H__$/;"	d
+__WIRELESSHIDDEVICE_H__	WirelessGamingReceiver/WirelessHIDDevice.h	/^#define __WIRELESSHIDDEVICE_H__$/;"	d
+__XBOX360CONTROLLER_H__	360Controller/_60Controller.h	/^#define __XBOX360CONTROLLER_H__$/;"	d
+_lock	360Controller/_60Controller.cpp	/^    IOLock *_lock;$/;"	m	class:LockRequired	file:
+_receivedData	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::_receivedData(void *target, WirelessDevice *sender, void *parameter)$/;"	f	class:WirelessHIDDevice
+activeEffect	Feedback360/emulator.h	/^    int activeEffect;$/;"	m	struct:__anon14
+alloc360Feedback	Feedback360/main.c	/^static IOCFPlugInInterface** alloc360Feedback(CFUUIDRef uuid)$/;"	f	file:
+attackCount	Feedback360/emulator.h	/^    int attackCount;$/;"	m	struct:__anon12
+attackLevel	Feedback360/emulator.h	/^    int attackLevel;    \/\/ 0-maxLevel$/;"	m	struct:__anon13
+attackLevel	Feedback360/emulator.h	/^    int attackLevel;$/;"	m	struct:__anon12
+attackTime	Feedback360/emulator.h	/^    int attackTime;     \/\/ Microseconds$/;"	m	struct:__anon13
+battery	WirelessGamingReceiver/WirelessHIDDevice.h	/^    unsigned char battery;$/;"	m	class:WirelessHIDDevice
+big	360Controller/ControlStruct.h	/^    XBox360_Byte big,little;$/;"	m	struct:__anon6
+btnA	360Controller/ControlStruct.h	/^    btnA             = 0x0010,$/;"	e	enum:__anon8
+btnB	360Controller/ControlStruct.h	/^    btnB             = 0x0020,$/;"	e	enum:__anon8
+btnBack	360Controller/ControlStruct.h	/^    btnBack          = 0x2000,$/;"	e	enum:__anon8
+btnDigiDown	360Controller/ControlStruct.h	/^    btnDigiDown      = 0x0200,$/;"	e	enum:__anon8
+btnDigiLeft	360Controller/ControlStruct.h	/^    btnDigiLeft      = 0x0400,$/;"	e	enum:__anon8
+btnDigiRight	360Controller/ControlStruct.h	/^    btnDigiRight     = 0x0800,$/;"	e	enum:__anon8
+btnDigiUp	360Controller/ControlStruct.h	/^    btnDigiUp        = 0x0100,$/;"	e	enum:__anon8
+btnHatLeft	360Controller/ControlStruct.h	/^    btnHatLeft       = 0x4000,$/;"	e	enum:__anon8
+btnHatRight	360Controller/ControlStruct.h	/^    btnHatRight      = 0x8000,$/;"	e	enum:__anon8
+btnReserved1	360Controller/ControlStruct.h	/^    btnReserved1     = 0x0008,  \/\/ Unused?$/;"	e	enum:__anon8
+btnShoulderLeft	360Controller/ControlStruct.h	/^    btnShoulderLeft  = 0x0001$/;"	e	enum:__anon8
+btnShoulderRight	360Controller/ControlStruct.h	/^    btnShoulderRight = 0x0002,$/;"	e	enum:__anon8
+btnStart	360Controller/ControlStruct.h	/^    btnStart         = 0x1000,$/;"	e	enum:__anon8
+btnX	360Controller/ControlStruct.h	/^    btnX             = 0x0040,$/;"	e	enum:__anon8
+btnXbox	360Controller/ControlStruct.h	/^    btnXbox          = 0x0004,$/;"	e	enum:__anon8
+btnY	360Controller/ControlStruct.h	/^    btnY             = 0x0080,$/;"	e	enum:__anon8
+buffer	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^    IOBufferMemoryDescriptor *buffer;$/;"	m	struct:__anon15	file:
+buttons	360Controller/ControlStruct.h	/^    XBox360_Short buttons;$/;"	m	struct:__anon4
+chatpadInit	360Controller/_60Controller.h	/^    UInt8 chatpadInit[2];$/;"	m	class:Xbox360Peripheral
+columns	360Controller/chatpadkeys.cpp	/^static const MAP_DATA columns[] = {$/;"	v	file:
+command	360Controller/ControlStruct.h	/^    XBox360_Byte command;$/;"	m	struct:__anon2
+connectionCount	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    int connectionCount;$/;"	m	class:WirelessGamingReceiver
+connections	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    WIRELESS_CONNECTION connections[WIRELESS_CONNECTIONS];$/;"	m	class:WirelessGamingReceiver
+context	Feedback360/emulator.h	/^    void *context;$/;"	m	struct:__anon14
+controller	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBInterface *controller;$/;"	m	struct:__anon16
+controllerIn	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBPipe *controllerIn, *controllerOut;$/;"	m	struct:__anon16
+controllerOut	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBPipe *controllerIn, *controllerOut;$/;"	m	struct:__anon16
+controllerStarted	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    bool controllerStarted;$/;"	m	struct:__anon16
+countAttack	Feedback360/emulator.h	/^    int countAttack;$/;"	m	struct:__anon12
+countFade	Feedback360/emulator.h	/^    int countFade;$/;"	m	struct:__anon12
+countLoop	Feedback360/emulator.h	/^    int countLoop;$/;"	m	struct:__anon12
+countStart	Feedback360/emulator.h	/^    int countStart;$/;"	m	struct:__anon12
+countSustain	Feedback360/emulator.h	/^    int countSustain;$/;"	m	struct:__anon12
+deadzoneLeft	360Controller/_60Controller.h	/^    short deadzoneLeft,deadzoneRight;$/;"	m	class:Xbox360Peripheral
+deadzoneLeft	Wireless360Controller/Wireless360Controller.h	/^    short deadzoneLeft,deadzoneRight;$/;"	m	class:Wireless360Controller
+deadzoneRight	360Controller/_60Controller.h	/^    short deadzoneLeft,deadzoneRight;$/;"	m	class:Xbox360Peripheral
+deadzoneRight	Wireless360Controller/Wireless360Controller.h	/^    short deadzoneLeft,deadzoneRight;$/;"	m	class:Wireless360Controller
+dealloc360Feedback	Feedback360/main.c	/^static void dealloc360Feedback(Xbox360ForceFeedback *this)$/;"	f	file:
+device	360Controller/_60Controller.h	/^    IOUSBDevice *device;$/;"	m	class:Xbox360Peripheral
+device	Feedback360/main.h	/^    DeviceLink device;$/;"	m	struct:_Xbox360ForceFeedback
+device	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBDevice *device;$/;"	m	class:WirelessGamingReceiver
+effectCount	Feedback360/emulator.h	/^    int effectCount;$/;"	m	struct:__anon14
+effects	Feedback360/emulator.h	/^    ForceEffect *effects;$/;"	m	struct:__anon14
+emulator	Feedback360/main.h	/^    ForceEmulator emulator;$/;"	m	struct:_Xbox360ForceFeedback
+enable	Feedback360/emulator.h	/^    bool enable,pause;$/;"	m	struct:__anon14
+factoryID	Feedback360/main.h	/^    CFUUIDRef factoryID;$/;"	m	struct:_Xbox360ForceFeedback
+fadeCount	Feedback360/emulator.h	/^    int fadeCount;$/;"	m	struct:__anon12
+fadeLevel	Feedback360/emulator.h	/^    int fadeLevel;      \/\/ 0-maxLevel$/;"	m	struct:__anon13
+fadeLevel	Feedback360/emulator.h	/^    int fadeLevel;$/;"	m	struct:__anon12
+fadeTime	Feedback360/emulator.h	/^    int fadeTime;       \/\/ Microseconds$/;"	m	struct:__anon13
+fiddleReport	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::fiddleReport(IOBufferMemoryDescriptor *buffer)$/;"	f	class:Xbox360Peripheral
+fiddleReport	Wireless360Controller/Wireless360Controller.cpp	/^void Wireless360Controller::fiddleReport(unsigned char *data, int length)$/;"	f	class:Wireless360Controller
+free	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::free(void)$/;"	f	class:Xbox360Peripheral
+fsPlay	Feedback360/emulator.h	/^    fsPlay,$/;"	e	enum:__anon11
+fsStop	Feedback360/emulator.h	/^    fsStop,$/;"	e	enum:__anon11
+function	WirelessGamingReceiver/WirelessDevice.h	/^    WirelessDeviceWatcher function;$/;"	m	class:WirelessDevice
+functionMap360_IOCFPlugInInterface	Feedback360/main.c	/^static IOCFPlugInInterface functionMap360_IOCFPlugInInterface={$/;"	v	file:
+functionMap360_IOForceFeedbackDeviceInterface	Feedback360/main.c	/^static IOForceFeedbackDeviceInterface functionMap360_IOForceFeedbackDeviceInterface={$/;"	v	file:
+gain	Feedback360/emulator.h	/^    int gain,maxGain;$/;"	m	struct:__anon14
+gain	Feedback360/emulator.h	/^    int gain;           \/\/ 0-maxLevel$/;"	m	struct:__anon13
+gain	Feedback360/emulator.h	/^    int gain;$/;"	m	struct:__anon12
+getAbsolute	360Controller/_60Controller.cpp	/^static inline XBox360_SShort getAbsolute(XBox360_SShort value)$/;"	f	file:
+getAbsolute	Wireless360Controller/Wireless360Controller.cpp	/^static inline XBox360_SShort getAbsolute(XBox360_SShort value)$/;"	f	file:
+getController	360Controller/_60Controller.cpp	/^IOHIDDevice* Xbox360Peripheral::getController(int index)$/;"	f	class:Xbox360Peripheral
+getDeviceString	360Controller/Controller.cpp	/^OSString* Xbox360ControllerClass::getDeviceString(UInt8 index,const char *def) const$/;"	f	class:Xbox360ControllerClass
+getReport	360Controller/ChatPad.cpp	/^IOReturn ChatPadKeyboardClass::getReport(IOMemoryDescriptor *report, IOHIDReportType reportType, IOOptionBits options)$/;"	f	class:ChatPadKeyboardClass
+getReport	360Controller/Controller.cpp	/^IOReturn Xbox360ControllerClass::getReport(IOMemoryDescriptor *report,IOHIDReportType reportType,IOOptionBits options)$/;"	f	class:Xbox360ControllerClass
+handleReport	360Controller/ChatPad.cpp	/^IOReturn ChatPadKeyboardClass::handleReport(IOMemoryDescriptor *report, IOHIDReportType reportType, IOOptionBits options)$/;"	f	class:ChatPadKeyboardClass
+handleStart	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^bool WirelessHIDDevice::handleStart(IOService *provider)$/;"	f	class:WirelessHIDDevice
+handleStop	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::handleStop(IOService *provider)$/;"	f	class:WirelessHIDDevice
+header	360Controller/ControlStruct.h	/^    XBOX360_PACKET header;$/;"	m	struct:__anon4
+header	360Controller/ControlStruct.h	/^    XBOX360_PACKET header;$/;"	m	struct:__anon5
+header	360Controller/ControlStruct.h	/^    XBOX360_PACKET header;$/;"	m	struct:__anon6
+iIOCFPlugInInterface	Feedback360/main.h	/^    Xbox360InterfaceMap iIOCFPlugInInterface;$/;"	m	struct:_Xbox360ForceFeedback
+iIOForceFeedbackDeviceInterface	Feedback360/main.h	/^    Xbox360InterfaceMap iIOForceFeedbackDeviceInterface;$/;"	m	struct:_Xbox360ForceFeedback
+inBuffer	360Controller/_60Controller.h	/^    IOBufferMemoryDescriptor *inBuffer;$/;"	m	class:Xbox360Peripheral
+inPipe	360Controller/_60Controller.h	/^    IOUSBPipe *inPipe,*outPipe;$/;"	m	class:Xbox360Peripheral
+inReport	360Controller/ControlStruct.h	/^    inReport  = 0,$/;"	e	enum:__anon7
+inUse	Feedback360/emulator.h	/^    bool inUse;$/;"	m	struct:__anon12
+index	WirelessGamingReceiver/WirelessDevice.h	/^    int index;$/;"	m	class:WirelessDevice
+index	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^    int index;$/;"	m	struct:__anon15	file:
+init	360Controller/_60Controller.cpp	/^bool Xbox360Peripheral::init(OSDictionary *propTable)$/;"	f	class:Xbox360Peripheral
+init	Wireless360Controller/Wireless360Controller.cpp	/^bool Wireless360Controller::init(OSDictionary *propTable)$/;"	f	class:Wireless360Controller
+init	WirelessGamingReceiver/WirelessDevice.cpp	/^bool WirelessDevice::init(OSDictionary *dictionary)$/;"	f	class:WirelessDevice
+inputArray	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    OSArray *inputArray;$/;"	m	struct:__anon16
+interface	360Controller/_60Controller.h	/^    IOUSBInterface *interface;$/;"	m	class:Xbox360Peripheral
+interface	Feedback360/devlink.h	/^    IOHIDDeviceInterface121 **interface;$/;"	m	struct:__anon10
+invertLeftX	360Controller/_60Controller.h	/^    bool invertLeftX,invertLeftY;$/;"	m	class:Xbox360Peripheral
+invertLeftX	Wireless360Controller/Wireless360Controller.h	/^    bool invertLeftX,invertLeftY;$/;"	m	class:Wireless360Controller
+invertLeftY	360Controller/_60Controller.h	/^    bool invertLeftX,invertLeftY;$/;"	m	class:Xbox360Peripheral
+invertLeftY	Wireless360Controller/Wireless360Controller.h	/^    bool invertLeftX,invertLeftY;$/;"	m	class:Wireless360Controller
+invertRightX	360Controller/_60Controller.h	/^    bool invertRightX,invertRightY;$/;"	m	class:Xbox360Peripheral
+invertRightX	Wireless360Controller/Wireless360Controller.h	/^    bool invertRightX,invertRightY;$/;"	m	class:Wireless360Controller
+invertRightY	360Controller/_60Controller.h	/^    bool invertRightX,invertRightY;$/;"	m	class:Xbox360Peripheral
+invertRightY	Wireless360Controller/Wireless360Controller.h	/^    bool invertRightX,invertRightY;$/;"	m	class:Wireless360Controller
+kDriverSettingKey	360Controller/_60Controller.cpp	/^#define kDriverSettingKey /;"	d	file:
+kDriverSettingKey	Wireless360Controller/Wireless360Controller.cpp	/^#define kDriverSettingKey /;"	d	file:
+kIOSerialDeviceType	360Controller/_60Controller.cpp	/^#define kIOSerialDeviceType /;"	d	file:
+kIOWirelessBatteryLevel	WirelessGamingReceiver/devices.h	/^#define kIOWirelessBatteryLevel /;"	d
+kIOWirelessDeviceType	WirelessGamingReceiver/devices.h	/^#define kIOWirelessDeviceType /;"	d
+ldAlternating	360Controller/ControlStruct.h	/^    ldAlternating   = 0x0d  \/\/ 1+4, 2+3, then back to previous after a short time$/;"	e	enum:__anon9
+ledBlinking	360Controller/ControlStruct.h	/^    ledBlinking     = 0x0b, \/\/ Blinking of previously enabled LED (e.g. from 0x01-0x09)$/;"	e	enum:__anon9
+ledBlinkingAll	360Controller/ControlStruct.h	/^    ledBlinkingAll  = 0x01,$/;"	e	enum:__anon9
+ledBlinkingSlow	360Controller/ControlStruct.h	/^    ledBlinkingSlow = 0x0c, \/\/ As above$/;"	e	enum:__anon9
+ledFlashOn1	360Controller/ControlStruct.h	/^    ledFlashOn1     = 0x02,$/;"	e	enum:__anon9
+ledFlashOn2	360Controller/ControlStruct.h	/^    ledFlashOn2     = 0x03,$/;"	e	enum:__anon9
+ledFlashOn3	360Controller/ControlStruct.h	/^    ledFlashOn3     = 0x04,$/;"	e	enum:__anon9
+ledFlashOn4	360Controller/ControlStruct.h	/^    ledFlashOn4     = 0x05,$/;"	e	enum:__anon9
+ledOff	360Controller/ControlStruct.h	/^    ledOff          = 0x00,$/;"	e	enum:__anon9
+ledOn1	360Controller/ControlStruct.h	/^    ledOn1          = 0x06,$/;"	e	enum:__anon9
+ledOn2	360Controller/ControlStruct.h	/^    ledOn2          = 0x07,$/;"	e	enum:__anon9
+ledOn3	360Controller/ControlStruct.h	/^    ledOn3          = 0x08,$/;"	e	enum:__anon9
+ledOn4	360Controller/ControlStruct.h	/^    ledOn4          = 0x09,$/;"	e	enum:__anon9
+ledRotating	360Controller/ControlStruct.h	/^    ledRotating     = 0x0a,$/;"	e	enum:__anon9
+left	360Controller/ControlStruct.h	/^    XBOX360_HAT left,right;$/;"	m	struct:__anon4
+little	360Controller/ControlStruct.h	/^    XBox360_Byte big,little;$/;"	m	struct:__anon6
+mainLock	360Controller/_60Controller.h	/^    IOLock *mainLock;$/;"	m	class:Xbox360Peripheral
+manual	Feedback360/main.h	/^    bool manual;$/;"	m	struct:_Xbox360ForceFeedback
+maxGain	Feedback360/emulator.h	/^    int gain,maxGain;$/;"	m	struct:__anon14
+maxLevel	Feedback360/emulator.h	/^    int maxLevel;$/;"	m	struct:__anon12
+maxLevel	Feedback360/emulator.h	/^    int maxLevel;$/;"	m	struct:__anon13
+message	360Controller/_60Controller.cpp	/^IOReturn Xbox360Peripheral::message(UInt32 type,IOService *provider,void *argument)$/;"	f	class:Xbox360Peripheral
+message	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^IOReturn WirelessGamingReceiver::message(UInt32 type,IOService *provider,void *argument)$/;"	f	class:WirelessGamingReceiver
+newLocationIDNumber	360Controller/ChatPad.cpp	/^OSNumber* ChatPadKeyboardClass::newLocationIDNumber() const$/;"	f	class:ChatPadKeyboardClass
+newLocationIDNumber	360Controller/Controller.cpp	/^OSNumber* Xbox360ControllerClass::newLocationIDNumber() const$/;"	f	class:Xbox360ControllerClass
+newLocationIDNumber	WirelessGamingReceiver/WirelessDevice.cpp	/^OSNumber* WirelessDevice::newLocationIDNumber() const$/;"	f	class:WirelessDevice
+newLocationIDNumber	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^OSNumber* WirelessGamingReceiver::newLocationIDNumber() const$/;"	f	class:WirelessGamingReceiver
+newLocationIDNumber	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^OSNumber* WirelessHIDDevice::newLocationIDNumber() const$/;"	f	class:WirelessHIDDevice
+newManufacturerString	360Controller/ChatPad.cpp	/^OSString* ChatPadKeyboardClass::newManufacturerString() const$/;"	f	class:ChatPadKeyboardClass
+newManufacturerString	360Controller/Controller.cpp	/^OSString* Xbox360ControllerClass::newManufacturerString() const$/;"	f	class:Xbox360ControllerClass
+newManufacturerString	Wireless360Controller/Wireless360Controller.cpp	/^OSString* Wireless360Controller::newManufacturerString() const$/;"	f	class:Wireless360Controller
+newPrimaryUsageNumber	360Controller/ChatPad.cpp	/^OSNumber* ChatPadKeyboardClass::newPrimaryUsageNumber() const$/;"	f	class:ChatPadKeyboardClass
+newPrimaryUsageNumber	360Controller/Controller.cpp	/^OSNumber* Xbox360ControllerClass::newPrimaryUsageNumber() const$/;"	f	class:Xbox360ControllerClass
+newPrimaryUsageNumber	Wireless360Controller/Wireless360Controller.cpp	/^OSNumber* Wireless360Controller::newPrimaryUsageNumber() const$/;"	f	class:Wireless360Controller
+newPrimaryUsagePageNumber	360Controller/ChatPad.cpp	/^OSNumber* ChatPadKeyboardClass::newPrimaryUsagePageNumber() const$/;"	f	class:ChatPadKeyboardClass
+newPrimaryUsagePageNumber	360Controller/Controller.cpp	/^OSNumber* Xbox360ControllerClass::newPrimaryUsagePageNumber() const$/;"	f	class:Xbox360ControllerClass
+newPrimaryUsagePageNumber	Wireless360Controller/Wireless360Controller.cpp	/^OSNumber* Wireless360Controller::newPrimaryUsagePageNumber() const$/;"	f	class:Wireless360Controller
+newProductIDNumber	360Controller/ChatPad.cpp	/^OSNumber* ChatPadKeyboardClass::newProductIDNumber() const$/;"	f	class:ChatPadKeyboardClass
+newProductIDNumber	360Controller/Controller.cpp	/^OSNumber* Xbox360ControllerClass::newProductIDNumber() const$/;"	f	class:Xbox360ControllerClass
+newProductIDNumber	Wireless360Controller/Wireless360Controller.cpp	/^OSNumber* Wireless360Controller::newProductIDNumber() const$/;"	f	class:Wireless360Controller
+newProductString	360Controller/ChatPad.cpp	/^OSString* ChatPadKeyboardClass::newProductString() const$/;"	f	class:ChatPadKeyboardClass
+newProductString	360Controller/Controller.cpp	/^OSString* Xbox360ControllerClass::newProductString() const$/;"	f	class:Xbox360ControllerClass
+newProductString	Wireless360Controller/Wireless360Controller.cpp	/^OSString* Wireless360Controller::newProductString() const$/;"	f	class:Wireless360Controller
+newReportDescriptor	360Controller/ChatPad.cpp	/^IOReturn ChatPadKeyboardClass::newReportDescriptor(IOMemoryDescriptor **descriptor) const$/;"	f	class:ChatPadKeyboardClass
+newReportDescriptor	360Controller/Controller.cpp	/^IOReturn Xbox360ControllerClass::newReportDescriptor(IOMemoryDescriptor **descriptor) const$/;"	f	class:Xbox360ControllerClass
+newReportDescriptor	Wireless360Controller/Wireless360Controller.cpp	/^IOReturn Wireless360Controller::newReportDescriptor(IOMemoryDescriptor ** descriptor ) const$/;"	f	class:Wireless360Controller
+newSerialNumberString	360Controller/ChatPad.cpp	/^OSString* ChatPadKeyboardClass::newSerialNumberString() const$/;"	f	class:ChatPadKeyboardClass
+newSerialNumberString	360Controller/Controller.cpp	/^OSString* Xbox360ControllerClass::newSerialNumberString() const$/;"	f	class:Xbox360ControllerClass
+newSerialNumberString	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^OSString* WirelessHIDDevice::newSerialNumberString() const$/;"	f	class:WirelessHIDDevice
+newTransportString	360Controller/ChatPad.cpp	/^OSString* ChatPadKeyboardClass::newTransportString() const$/;"	f	class:ChatPadKeyboardClass
+newTransportString	360Controller/Controller.cpp	/^OSString* Xbox360ControllerClass::newTransportString() const$/;"	f	class:Xbox360ControllerClass
+newTransportString	Wireless360Controller/Wireless360Controller.cpp	/^OSString* Wireless360Controller::newTransportString() const$/;"	f	class:Wireless360Controller
+newVendorIDNumber	360Controller/ChatPad.cpp	/^OSNumber* ChatPadKeyboardClass::newVendorIDNumber() const$/;"	f	class:ChatPadKeyboardClass
+newVendorIDNumber	360Controller/Controller.cpp	/^OSNumber* Xbox360ControllerClass::newVendorIDNumber() const$/;"	f	class:Xbox360ControllerClass
+newVendorIDNumber	Wireless360Controller/Wireless360Controller.cpp	/^OSNumber* Wireless360Controller::newVendorIDNumber() const$/;"	f	class:Wireless360Controller
+obj	Feedback360/main.h	/^    struct _Xbox360ForceFeedback *obj;$/;"	m	struct:_Xbox360InterfaceMap	typeref:struct:_Xbox360InterfaceMap::_Xbox360ForceFeedback
+oldLarge	Feedback360/emulator.h	/^    unsigned char oldLarge,oldSmall;$/;"	m	struct:__anon14
+oldSmall	Feedback360/emulator.h	/^    unsigned char oldLarge,oldSmall;$/;"	m	struct:__anon14
+other	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBInterface *other;$/;"	m	struct:__anon16
+otherIn	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBPipe *otherIn, *otherOut;$/;"	m	struct:__anon16
+otherOut	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    IOUSBPipe *otherIn, *otherOut;$/;"	m	struct:__anon16
+outLed	360Controller/ControlStruct.h	/^    outLed    = 1$/;"	e	enum:__anon7
+outPipe	360Controller/_60Controller.h	/^    IOUSBPipe *inPipe,*outPipe;$/;"	m	class:Xbox360Peripheral
+outRumble	360Controller/ControlStruct.h	/^    outRumble = 0,$/;"	e	enum:__anon7
+padHandler	360Controller/_60Controller.h	/^	Xbox360ControllerClass *padHandler;$/;"	m	class:Xbox360Peripheral
+parameter	WirelessGamingReceiver/WirelessDevice.h	/^    void *target, *parameter;$/;"	m	class:WirelessDevice
+pattern	360Controller/ControlStruct.h	/^    XBox360_Byte pattern;$/;"	m	struct:__anon5
+pause	Feedback360/emulator.h	/^    bool enable,pause;$/;"	m	struct:__anon14
+pseudoVTable	Feedback360/main.h	/^    IUnknownVTbl *pseudoVTable;$/;"	m	struct:_Xbox360InterfaceMap
+readSettings	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::readSettings(void)$/;"	f	class:Xbox360Peripheral
+readSettings	Wireless360Controller/Wireless360Controller.cpp	/^void Wireless360Controller::readSettings(void)$/;"	f	class:Wireless360Controller
+receivedData	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::receivedData(void)$/;"	f	class:WirelessHIDDevice
+receivedHIDupdate	Wireless360Controller/Wireless360Controller.cpp	/^void Wireless360Controller::receivedHIDupdate(unsigned char *data, int length)$/;"	f	class:Wireless360Controller
+receivedHIDupdate	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::receivedHIDupdate(unsigned char *data, int length)$/;"	f	class:WirelessHIDDevice
+receivedMessage	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::receivedMessage(IOMemoryDescriptor *data)$/;"	f	class:WirelessHIDDevice
+receivedUpdate	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^void WirelessHIDDevice::receivedUpdate(unsigned char type, unsigned char *data)$/;"	f	class:WirelessHIDDevice
+refCount	Feedback360/main.h	/^    UInt32 refCount;$/;"	m	struct:_Xbox360ForceFeedback
+relativeLeft	360Controller/_60Controller.h	/^    bool relativeLeft,relativeRight;$/;"	m	class:Xbox360Peripheral
+relativeLeft	Wireless360Controller/Wireless360Controller.h	/^    bool relativeLeft,relativeRight;$/;"	m	class:Wireless360Controller
+relativeRight	360Controller/_60Controller.h	/^    bool relativeLeft,relativeRight;$/;"	m	class:Xbox360Peripheral
+relativeRight	Wireless360Controller/Wireless360Controller.h	/^    bool relativeLeft,relativeRight;$/;"	m	class:Wireless360Controller
+reserved	360Controller/ControlStruct.h	/^    XBox360_Byte reserved[3];$/;"	m	struct:__anon6
+reserved	360Controller/ControlStruct.h	/^    XBox360_Byte reserved[6];$/;"	m	struct:__anon4
+reserved1	360Controller/ControlStruct.h	/^    XBox360_Byte reserved1;$/;"	m	struct:__anon6
+right	360Controller/ControlStruct.h	/^    XBOX360_HAT left,right;$/;"	m	struct:__anon4
+row	360Controller/chatpadkeys.cpp	/^	unsigned char row[ROW_SIZE];$/;"	m	struct:MAP_DATA	file:
+serialActive	360Controller/_60Controller.h	/^	bool serialToggle, serialHeard, serialActive;$/;"	m	class:Xbox360Peripheral
+serialHandler	360Controller/_60Controller.h	/^	ChatPadKeyboardClass *serialHandler;$/;"	m	class:Xbox360Peripheral
+serialHeard	360Controller/_60Controller.h	/^	bool serialToggle, serialHeard, serialActive;$/;"	m	class:Xbox360Peripheral
+serialIn	360Controller/_60Controller.h	/^	IOUSBInterface *serialIn;$/;"	m	class:Xbox360Peripheral
+serialInBuffer	360Controller/_60Controller.h	/^    IOBufferMemoryDescriptor *serialInBuffer;$/;"	m	class:Xbox360Peripheral
+serialInPipe	360Controller/_60Controller.h	/^	IOUSBPipe *serialInPipe;$/;"	m	class:Xbox360Peripheral
+serialResetCount	360Controller/_60Controller.h	/^	int serialResetCount;$/;"	m	class:Xbox360Peripheral
+serialString	WirelessGamingReceiver/WirelessHIDDevice.h	/^    char serialString[10];$/;"	m	class:WirelessHIDDevice
+serialTimer	360Controller/_60Controller.h	/^	IOTimerEventSource *serialTimer;$/;"	m	class:Xbox360Peripheral
+serialTimer	WirelessGamingReceiver/WirelessHIDDevice.h	/^	IOTimerEventSource *serialTimer;$/;"	m	class:WirelessHIDDevice
+serialTimerCount	WirelessGamingReceiver/WirelessHIDDevice.h	/^    int serialTimerCount;$/;"	m	class:WirelessHIDDevice
+serialTimerState	360Controller/_60Controller.h	/^	TIMER_STATE serialTimerState;$/;"	m	class:Xbox360Peripheral
+serialToggle	360Controller/_60Controller.h	/^	bool serialToggle, serialHeard, serialActive;$/;"	m	class:Xbox360Peripheral
+service	WirelessGamingReceiver/WirelessGamingReceiver.h	/^    WirelessDevice *service;$/;"	m	struct:__anon16
+setProperties	360Controller/Controller.cpp	/^IOReturn Xbox360ControllerClass::setProperties(OSObject *properties)$/;"	f	class:Xbox360ControllerClass
+setProperties	360Controller/_60Controller.cpp	/^IOReturn Xbox360Peripheral::setProperties(OSObject *properties)$/;"	f	class:Xbox360Peripheral
+setProperties	Wireless360Controller/Wireless360Controller.cpp	/^IOReturn Wireless360Controller::setProperties(OSObject *properties)$/;"	f	class:Wireless360Controller
+setReport	360Controller/ChatPad.cpp	/^IOReturn ChatPadKeyboardClass::setReport(IOMemoryDescriptor *report, IOHIDReportType reportType, IOOptionBits options)$/;"	f	class:ChatPadKeyboardClass
+setReport	360Controller/Controller.cpp	/^IOReturn Xbox360ControllerClass::setReport(IOMemoryDescriptor *report,IOHIDReportType reportType,IOOptionBits options)$/;"	f	class:Xbox360ControllerClass
+setReport	Wireless360Controller/Wireless360Controller.cpp	/^IOReturn Wireless360Controller::setReport(IOMemoryDescriptor *report, IOHIDReportType reportType, IOOptionBits options)$/;"	f	class:Wireless360Controller
+setReport	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^IOReturn WirelessHIDDevice::setReport(IOMemoryDescriptor *report, IOHIDReportType reportType, IOOptionBits options)$/;"	f	class:WirelessHIDDevice
+size	360Controller/ControlStruct.h	/^    XBox360_Byte size;$/;"	m	struct:__anon2
+start	360Controller/ChatPad.cpp	/^bool ChatPadKeyboardClass::start(IOService *provider)$/;"	f	class:ChatPadKeyboardClass
+start	360Controller/Controller.cpp	/^bool Xbox360ControllerClass::start(IOService *provider)$/;"	f	class:Xbox360ControllerClass
+start	360Controller/_60Controller.cpp	/^bool Xbox360Peripheral::start(IOService *provider)$/;"	f	class:Xbox360Peripheral
+start	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^bool WirelessGamingReceiver::start(IOService *provider)$/;"	f	class:WirelessGamingReceiver
+startCount	Feedback360/emulator.h	/^    int startCount;$/;"	m	struct:__anon12
+startDelay	Feedback360/emulator.h	/^    int startDelay;     \/\/ Microseconds$/;"	m	struct:__anon13
+state	Feedback360/emulator.h	/^    ForceState state;$/;"	m	struct:__anon12
+stop	360Controller/_60Controller.cpp	/^void Xbox360Peripheral::stop(IOService *provider)$/;"	f	class:Xbox360Peripheral
+stop	WirelessGamingReceiver/WirelessGamingReceiver.cpp	/^void WirelessGamingReceiver::stop(IOService *provider)$/;"	f	class:WirelessGamingReceiver
+super	360Controller/_60Controller.cpp	/^#define super /;"	d	file:
+super	Wireless360Controller/Wireless360Controller.cpp	/^#define super /;"	d	file:
+super	WirelessGamingReceiver/WirelessDevice.cpp	/^#define super /;"	d	file:
+super	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^#define super /;"	d	file:
+sustainCount	Feedback360/emulator.h	/^    int sustainCount;$/;"	m	struct:__anon12
+sustainLevel	Feedback360/emulator.h	/^    int sustainLevel;   \/\/ 0-maxLevel$/;"	m	struct:__anon13
+sustainLevel	Feedback360/emulator.h	/^    int sustainLevel;$/;"	m	struct:__anon12
+sustainTime	Feedback360/emulator.h	/^    int sustainTime;    \/\/ Microseconds$/;"	m	struct:__anon13
+target	WirelessGamingReceiver/WirelessDevice.h	/^    void *target, *parameter;$/;"	m	class:WirelessDevice
+timer	Feedback360/emulator.h	/^    CFRunLoopTimerRef timer;$/;"	m	struct:__anon14
+trigL	360Controller/ControlStruct.h	/^    XBox360_Byte trigL,trigR;$/;"	m	struct:__anon4
+trigR	360Controller/ControlStruct.h	/^    XBox360_Byte trigL,trigR;$/;"	m	struct:__anon4
+tsMiniToggle	360Controller/_60Controller.h	/^		tsMiniToggle,$/;"	e	enum:Xbox360Peripheral::__anon1
+tsReset1	360Controller/_60Controller.h	/^		tsReset1,$/;"	e	enum:Xbox360Peripheral::__anon1
+tsReset2	360Controller/_60Controller.h	/^		tsReset2,$/;"	e	enum:Xbox360Peripheral::__anon1
+tsSet1	360Controller/_60Controller.h	/^		tsSet1,$/;"	e	enum:Xbox360Peripheral::__anon1
+tsSet2	360Controller/_60Controller.h	/^		tsSet2,$/;"	e	enum:Xbox360Peripheral::__anon1
+tsSet3	360Controller/_60Controller.h	/^		tsSet3,$/;"	e	enum:Xbox360Peripheral::__anon1
+tsToggle	360Controller/_60Controller.h	/^		tsToggle,$/;"	e	enum:Xbox360Peripheral::__anon1
+weirdStart	WirelessGamingReceiver/WirelessHIDDevice.cpp	/^const char weirdStart[] = {0x00, 0x00, 0x00, 0x40, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+x	360Controller/ControlStruct.h	/^    XBox360_SShort x,y;$/;"	m	struct:__anon3
+y	360Controller/ControlStruct.h	/^    XBox360_SShort x,y;$/;"	m	struct:__anon3
+~LockRequired	360Controller/_60Controller.cpp	/^    ~LockRequired()$/;"	f	class:LockRequired
